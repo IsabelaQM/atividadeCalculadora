@@ -1,5 +1,5 @@
 package com.example.calculadora;
-// ***** O código abaixo contém erros porque o objetivo da atividade é justamente testar os métodos
+// ***** O código abaixo contém erros porque o objetivo da atividade é testar os métodos
 
 public class Calculadora {
     private int memoria;
