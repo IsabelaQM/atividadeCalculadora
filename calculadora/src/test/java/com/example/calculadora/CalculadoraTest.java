@@ -11,15 +11,11 @@ import org.junit.jupiter.api.Test;
 class CalculadoraTest {
 	private static Calculadora calc;
 
-	@BeforeAll
-    static void inicializarTeste(){
-        System.out.println("Começou o teste!!!!!!!!");
-        calc = new Calculadora(3);
-    }
-
 	@BeforeEach
-	void instanciarObjetos(){
-        System.out.println("Inicializando caso de teste");        
+    static void inicializarTeste(){
+	int valorMemoriaInicial = 3;
+        System.out.println("Começou o teste!!!!!!!!");
+        calc = new Calculadora(valorMemoriaInicial);
     }
 
 	// Teste para o construtor sem parâmetro de entrada
