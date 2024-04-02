@@ -77,7 +77,6 @@ class CalculadoraTest {
     void testExponenciarMemoriaPorDez() throws Exception{
 		calc.exponenciar(10);
 		assertEquals(59049, calc.getMemoria());
-        //assertThrows(Exception.class, () -> calc.exponenciar(11));
     }
 
 	// Teste do método exponenciacao: exponenciar a memória por valor maior do que 10. Deverá retornar uma Exception (construtor com valor = 3)
