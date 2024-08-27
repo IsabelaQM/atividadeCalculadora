@@ -25,7 +25,7 @@ public class Calculadora {
     }
 
     public void subtrair(int valor) {
-        this.memoria = this.memoria;
+        this.memoria -= valor;
     }
 
     public void multiplicar(int valor) {
