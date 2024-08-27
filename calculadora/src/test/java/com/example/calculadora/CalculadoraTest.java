@@ -19,34 +19,34 @@ class CalculadoraTest {
 
 	// Teste para o construtor sem parâmetro de entrada
     @Test
-    void testConstrutorSemParametro() throws Exception{
+    void testConstrutorSemParametro(){
 		calc = new Calculadora();
         assertEquals(0, calc.getMemoria());
     }
 
 	// Teste para o construtor com parâmetro de entrada = 3
     @Test
-    void testConstrutorComParametro() throws Exception{
+    void testConstrutorComParametro(){
         assertEquals(3, calc.getMemoria());
     }
 
 	// Teste do método somar:somar um número negativo (construtor com valor = 3)
     @Test
-    void testSomarNumeroNegativo() throws Exception{
+    void testSomarNumeroNegativo(){
         calc.somar(-5);
         assertEquals(-2, calc.getMemoria());
     }
 
 	// Teste do método subtrair:subtrair um número positivo (construtor com valor = 3)
     @Test
-    void testSubtrairNumeroPositivo() throws Exception{
+    void testSubtrairNumeroPositivo(){
         calc.subtrair(3);
         assertEquals(0, calc.getMemoria());
     }
 
 	// Teste do método multiplicar: multiplicar um número positivo (construtor com valor = 3)
     @Test
-    void testMultiplicarNumeroPositivo() throws Exception{
+    void testMultiplicarNumeroPositivo(){
         calc.multiplicar(2);
         assertEquals(6, calc.getMemoria());
     }
